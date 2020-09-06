@@ -1,3 +1,7 @@
+ul {
+	list-style-type: none;
+}
+
 .bg-green {
 	background-color: rgb(7 166 99);
 }
@@ -8,9 +12,10 @@
 	background-color: #c4d2fe;
 }
 .bg-custom-green {
-	background-image: linear-gradient(rgb(7 166 99), rgb(7 166 99));
+	background-image: url("./assets/bg-pexels.jpeg");
 	background-repeat: no-repeat;
-	background-position: 0px -150px;
+	background-size: cover;
+	background-position: 0px -294px;
 }
 .text-green {
 	color: rgb(7 166 99);
@@ -18,6 +23,10 @@
 
 .fs-12 {
 	font-size: 12px;
+}
+
+.fs-14 {
+	font-size: 14px;
 }
 
 .fs-20 {
