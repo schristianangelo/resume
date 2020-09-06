@@ -1,0 +1,31 @@
+.bg-green {
+	background-color: rgb(7 166 99);
+}
+.bg-gray {
+	background-color: #e7e7e7;
+}
+.bg-sky-blue {
+	background-color: #c4d2fe;
+}
+.bg-custom-green {
+	background-image: linear-gradient(rgb(7 166 99), rgb(7 166 99));
+	background-repeat: no-repeat;
+	background-position: 0px -150px;
+}
+.text-green {
+	color: rgb(7 166 99);
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-20 {
+	font-size: 20px;
+}
+
+.pos-a-b {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
